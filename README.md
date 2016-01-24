@@ -54,8 +54,9 @@ To customize the grid, the following variables may be passed through the query s
 
 The si-layout.php file should be linked in the <head> section before your site's main stylesheet(s), like so, with the config variables passed through the query string:
 
+```html
 <link rel="stylesheet" type="text/css" href="si-layout.php?gridSize=12&gutterWidth=4&breakpoints=1000px|800px|400px" />
-
+```
 
 ## Example usage
 
