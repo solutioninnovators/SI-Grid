@@ -15,8 +15,8 @@ See README for more information
 $gridSize = isset($_GET['gridSize']) && preg_match('/^\d{1,2}$/', $_GET['gridSize']) && $_GET['gridSize'] >= 2 ? $_GET['gridSize'] : 12;
 $gutterWidth = isset($_GET['gutterWidth']) && is_numeric($_GET['gutterWidth']) && strlen($_GET['gutterWidth']) <= 99 ? $_GET['gutterWidth'] : 4;
 $breakpoints = isset($_GET['breakpoints']) && preg_match('/^\d{1,4}(?:px|em)(?:\|\d{1,4}(?:px|em))*$/', $_GET['breakpoints']) ? $_GET['breakpoints'] : null;
-$prefix = isset($_GET['prefix']) && strlen($_GET['prefix']) < 50 && preg_match('/^[_a-zA-Z0-9-]{1,}$/', $_GET['prefix']) ? $_GET['prefix'] : null;
-$mode = isset($_GET['mode']) && is_int($_GET['mode']) ? $_GET['mode'] : null;
+$prefix = isset($_GET['prefix']) && strlen($_GET['prefix']) < 50 && preg_match('/^[_a-zA-Z0-9-]{1,}$/', $_GET['prefix']) ? $_GET['prefix'] : '';
+$mode = isset($_GET['mode']) && is_numeric($_GET['mode']) ? $_GET['mode'] : 0;
 
 
 // Create an array from the breakpoint string
@@ -112,7 +112,7 @@ body .<?= $prefix ?>contentCenter {text-align:center;}
 // Add classes for each breakpoint
 foreach($breakpointArray as $breakpoint) { 
 ?>
-	@media (<? $mode == 1 ? 'min-width' : 'max-width' ?>:<?= $breakpoint ?>) {
+	@media (<?= $mode == 1 ? 'min-width' : 'max-width' ?>:<?= $breakpoint ?>) {
 		<?
 		for($colSpan=1; $colSpan<=$gridSize; $colSpan++) {
 		?>
