@@ -1,5 +1,5 @@
 # SI Layout - Auto-generated Responsive CSS Grid System (and more!)
-Developed by Mike Spooner for Solution Innovators
+Developed by Mike Spooner (thetuningspoon) for Solution Innovators
 
 A collection of CSS classes which can be applied to layout elements in the html to automatically size and float them into widths based on an imaginary 12-column (or any number column) grid. Speeds development, reduces code, and keeps visual alignment/spacing consistent.
 
