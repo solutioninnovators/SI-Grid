@@ -62,7 +62,7 @@ The si-layout.php file should be linked in the <head> section before your site's
 
 ```html
 <div class="grid">
-	<div class="span6 span12_400px"> This content will appear 50% width at full screen &amp; full width at a viewport width of less than 400px. </div>
-	<div class="span6 span12_400px"> This content will appear 50% width at full screen &amp; full width at a viewport width of less than 400px. </div>
+	<div class="span6 span12_400px"> This content will appear 50% width at full screen and full width at a viewport width of less than 400px. </div>
+	<div class="span6 span12_400px"> This content will appear 50% width at full screen and full width at a viewport width of less than 400px. </div>
 </div>
 ```
