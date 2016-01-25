@@ -26,7 +26,7 @@ A collection of CSS classes which can be applied to layout elements in the html 
 
 **hide** - Hides the element. As with span, it can be used in combination with breakpoints to hide an element at a certain viewport width and below (i.e. hide_600px). Feel free to use this class (and the corresponding show class) for elements outside of grid elements as well.
 
-**show** - Sets the element to display again at a given breakpoint (i.e. show_400px).
+**show** - Sets the element to display again at a given breakpoint (i.e. show_400px). Works only with block elements.
 
 **group** - Additional "clearfix" class for use on non-grid elements (grids are automatically cleared)
 
