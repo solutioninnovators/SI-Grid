@@ -47,6 +47,7 @@ if($mode == 1) $breakpointArray = array_reverse($breakpointArray); // Reverse or
 img {
 	max-width: 100%;
 	height: auto;
+	vertical-align: middle;
 	border: 0;
 }
 
