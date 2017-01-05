@@ -118,7 +118,7 @@ foreach($breakpointArray as $breakpoint) {
 		for($colSpan=1; $colSpan<=$gridSize; $colSpan++) {
 		?>
 			.<?= $prefix ?>span<?= $colSpan ?>_<?= $breakpoint ?> {width: <?= ($colSpan/$gridSize) * 100 ?>%;}
-			.<?= $prefix ?>gGrid .<?= $prefix ?>span<?= $colSpan ?>_<?= $breakpoint ?> {width: <?= ($colSpan/$gridSize) * 100 - $gutterWidth ?>%;}
+			.<?= $prefix ?>gGrid > .<?= $prefix ?>span<?= $colSpan ?>_<?= $breakpoint ?> {width: <?= ($colSpan/$gridSize) * 100 - $gutterWidth ?>%;}
 			
 			.<?= $prefix ?>append<?= $colSpan ?>_<?= $breakpoint ?> {margin-right: <?= ($colSpan/$gridSize) * 100 ?>%;}
 			.<?= $prefix ?>gGrid > .<?= $prefix ?>append<?= $colSpan ?> {margin-right: <?= ($colSpan/$gridSize) * 100 ?>%;}
