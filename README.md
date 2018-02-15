@@ -1,7 +1,7 @@
-# SI Grid - Auto-generated Responsive CSS Grid System (and more!)
+# SI Grid - A dynamically generated, responsive, nestable CSS grid system, built with PHP
 Developed by Mike Spooner (thetuningspoon) for Solution Innovators
 
-A collection of CSS classes which can be applied to layout elements in the html to automatically size and float them into widths based on an imaginary 12-column (or any number column) grid. Speeds development, reduces code, and keeps visual alignment/spacing consistent.
+This simple PHP script generates a collection of CSS classes which can be applied to layout elements in your html to size and float them into widths based on an imaginary 12-column (or any number column) grid. The script is fully configurable, with options provided as query string parameters in the URL. Grids are fully nestable. Speeds development, reduces code, and keeps visual alignment/spacing consistent.
 
 
 ## CSS Classes
