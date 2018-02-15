@@ -4,7 +4,7 @@ header('Cache-Control: max-age=86400'); //Enable caching of the file
 
 /* 
 /////////////////////////////////////////////////////////////////
-SI Layout - Auto-generated Responsive CSS Grid System (and more!)
+SI Grid - Auto-generated Responsive CSS Grid System (and more!)
 Developed by Mike Spooner for Solution Innovators
 v1.3
 See README for more information
@@ -44,7 +44,7 @@ if($mode == 1) $breakpointArray = array_reverse($breakpointArray); // Reverse or
 	white-space: nowrap;
 }
 
-img {
+img, object, embed {
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;

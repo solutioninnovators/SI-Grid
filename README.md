@@ -1,4 +1,4 @@
-# SI Layout - Auto-generated Responsive CSS Grid System (and more!)
+# SI Grid - Auto-generated Responsive CSS Grid System (and more!)
 Developed by Mike Spooner (thetuningspoon) for Solution Innovators
 
 A collection of CSS classes which can be applied to layout elements in the html to automatically size and float them into widths based on an imaginary 12-column (or any number column) grid. Speeds development, reduces code, and keeps visual alignment/spacing consistent.
@@ -52,10 +52,10 @@ To customize the grid, the following variables may be passed through the query s
 
 ## Instructions
 
-The si-layout.php file should be linked in the <head> section before your site's main stylesheet(s), like so, with the config variables passed through the query string:
+The si-grid.php file should be linked in the <head> section before your site's main stylesheet(s), like so, with the config variables passed through the query string:
 
 ```html
-<link rel="stylesheet" type="text/css" href="si-layout.php?gridSize=12&gutterWidth=4&breakpoints=1000px|800px|400px" />
+<link rel="stylesheet" type="text/css" href="si-grid.php?gridSize=12&gutterWidth=4&breakpoints=1000px|800px|400px" />
 ```
 
 ## Example usage
