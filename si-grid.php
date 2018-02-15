@@ -6,7 +6,7 @@ header('Cache-Control: max-age=86400'); //Enable caching of the file
 /////////////////////////////////////////////////////////////////
 SI Grid - Auto-generated Responsive CSS Grid System (and more!)
 Developed by Mike Spooner for Solution Innovators
-v1.3
+v1.4
 See README for more information
 /////////////////////////////////////////////////////////////////
 */
